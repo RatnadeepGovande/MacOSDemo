@@ -18,6 +18,7 @@ class ViewController: NSViewController {
     }
     func loadUI() {
         print("dev branch....")
+        print("Modified file after pull...")
     }
 
     override var representedObject: Any? {
