@@ -14,11 +14,12 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+            loadUI()
     }
     func loadUI() {
         print("dev branch....")
         print("Modified file after pull...")
+    
     }
 
     override var representedObject: Any? {
