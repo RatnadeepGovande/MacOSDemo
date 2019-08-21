@@ -21,6 +21,10 @@ class ViewController: NSViewController {
         print("Modified file after pull...")
     
     }
+    
+    func configurationOfView() {
+        print("configurationOfView")
+    }
 
     override var representedObject: Any? {
         didSet {
