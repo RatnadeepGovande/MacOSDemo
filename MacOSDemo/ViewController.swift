@@ -24,6 +24,9 @@ class ViewController: NSViewController {
     
     func configurationOfView() {
         print("configurationOfView")
+        
+        let titleLbl: NSTextField =  NSTextField()
+        self.view.addSubview(titleLbl)
     }
 
     override var representedObject: Any? {
@@ -32,6 +35,7 @@ class ViewController: NSViewController {
         }
     }
 
+    
 
 }
 
